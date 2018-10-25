@@ -68,7 +68,7 @@ public class MinesweeperField {
 
         this.field = field;
 
-        createCover();
+        //createCover();
     }
 
     public MinesweeperField(int horBlocks, int verBlocks, double percentageOfBombs) {
@@ -130,6 +130,7 @@ public class MinesweeperField {
         //Create a new field
         int[][] cover = new int[horBlocks][verBlocks];
 
+        //TODO
         //Set all blocks to closed blocks
         for (int i = 0; i < horBlocks; i++) {
             Arrays.fill(field[i], 10);
